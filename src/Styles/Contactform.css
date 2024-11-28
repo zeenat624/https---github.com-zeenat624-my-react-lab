@@ -1,0 +1,62 @@
+.card {
+    margin-top: 50px;
+    background-color: #a3c0ca; 
+    width:25%; 
+    height: 450px; 
+    text-align: center; 
+    box-shadow: 0 2px 8px; 
+    margin-bottom:20px; 
+    overflow: hidden; 
+    border-radius: 25px; 
+    place-self: center; 
+    font-size: 50px; 
+  }
+  
+  
+  .card p {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+
+  }
+  
+  
+  .card label {
+    display: block;  
+    font-size: 20px;
+    color: black;
+  }
+  
+  .card input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .card button{
+    padding: 8px 30px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 40px;
+    margin-left: 40px;
+    
+  }
+  
+  .card button:hover {
+    background-color: #0056b3;
+  }
+  
+  body {
+    background-color: #f0f0f0; 
+    transition: background-color 0.3s ease; 
+  }

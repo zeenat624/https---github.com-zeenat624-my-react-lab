@@ -2,8 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color: #f8eb3b;
+    padding: 0px;
+    background-color: #f39c12;
     color: white;
     }
     .navbar-logo p{
@@ -12,11 +12,12 @@
     float: right;
     color:white;
     padding-left: 8px;
+    padding-bottom: 8px;
     }
     .navbar-menu {
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 10px;
     margin: 0;
     padding: 0;
     }
@@ -24,10 +25,46 @@
     color: white;
     text-decoration: none;
     transition: color 0.3s ease;
+    padding-right: 40px;
+    font-size: larger;
+    margin-left: 10px;
     }
     .navbar-link:hover {
-    color: #61dafb;
+    color: #61dafb
     }
     img{
-        
+    padding-left: 10px;
+    width: 75px;
+    overflow: hidden;
+    justify-content: left;
+    padding-top: 17px;
+    }
+    .Login-button{
+    padding: 8px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 40px;
+    
+    }
+    .Login-button:hover {
+    background-color: #0056b3;
+    }
+    .Signup-button{
+    padding: 8px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 40px;   
+    }
+    .Signup-button:hover {
+    background-color: #0056b3;
     }

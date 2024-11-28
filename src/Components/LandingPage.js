@@ -3,14 +3,14 @@ import '../Styles/LandingPage.css'; // Import CSS file
 function LandingPage() {
 return (
 <div className="landing-container">
-<h1 className="landing-title">Welcome to Our Website</h1>
+<h1 className="landing-title">Craving Something? Let Us Bring It to You!</h1>
 <p className="landing-subtitle">
-Discover amazing things and explore our world of possibilities.
-We're here to help you achieve your goals and dreams.
+CravinngGo! delivers your favorite meals fast and fresh, satisfying every craving with a just few clicks.
 </p>
 <button className="landing-button">
 Learn More
 </button>
+<img class="pic" src= "food.jpg" />
 </div>
 );
 }

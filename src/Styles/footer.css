@@ -1,0 +1,15 @@
+.footer-container{ 
+    text-align: center; 
+} 
+.footer-container li{
+    list-style: none;
+    text-align: left;
+}
+img{
+    padding-left: 10px;
+    width: 75px;
+    overflow: hidden;
+    justify-content: left;
+    padding-top: 17px;
+    }
+   
