@@ -1,9 +1,9 @@
 import React from 'react';
-import '../styles/Navbar.css'; // Import CSS file
+import '../Styles/Navbar.css'; // Import CSS file
 function Navbar() {
 return (
 <nav className="navbar">
-<div className="navbar-logo">MyLogo</div>
+<div className="navbar-logo"> <img src= "craving.png"/> <p>CravingGo!</p></div>
 <ul className="navbar-menu">
 <li><a href="#" className="navbar-link">Home</a></li>
 <li><a href="#" className="navbar-link">About</a></li>

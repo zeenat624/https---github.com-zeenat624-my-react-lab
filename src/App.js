@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/App.css'; // Import global styles
+import './App.css'; // Import global styles
 import Navbar from './Components/Navbar';
 import LandingPage from './Components/LandingPage';
 function App() {

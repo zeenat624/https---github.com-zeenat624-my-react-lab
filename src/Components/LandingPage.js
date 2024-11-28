@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/LandingPage.css'; // Import CSS file
+import '../Styles/LandingPage.css'; // Import CSS file
 function LandingPage() {
 return (
 <div className="landing-container">
