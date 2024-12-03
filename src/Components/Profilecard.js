@@ -1,13 +1,16 @@
 import React from 'react';
-import './Profilecard.css';
+import '../styles/Profilecard.css';
 function Profilecard (props) {
 const { name, age, occupation,location } = props; 
 return (
-<div className='caed'>
+<div className='card'>
+<img src="Gutech.png" />
 <h1>  {name} </h1>
-<p>Age:{age} </p>
+<div className='content'>
+<p >Age: {age}</p>
 <p> Occupation: {occupation}.</p>
 <p> Location: {location}.</p>
+</div>
 </div>
 );
 }
