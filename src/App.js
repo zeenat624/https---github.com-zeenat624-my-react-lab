@@ -3,7 +3,7 @@ import './styles/Productcard.css';
 function App() {
   return (
   <div>
-  <Productcard name="Zeenat" age = {19} occupation="Software Engineering" location =" Karachi" />
+  <Productcard imageUrl= "Nike_shoes.png" title="Nike" description = "Experience unmatched comfort and performance with the Nike Air Zoom Pegasus 40.these shoes are perfect for every run." price= {129}  />;
     
     </div>
   );

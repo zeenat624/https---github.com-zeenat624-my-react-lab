@@ -1,15 +1,19 @@
 import React from 'react';
 import '../styles/Productcard.css';
 function Productcard (props) {
-const { name, age, occupation,location } = props; 
+const { title, description, price, imageUrl} = props; 
 return (
+
 <div className='card'>
-<img src="Gutech.png" />
-<h1>  {name} </h1>
+<img className='image' src={imageUrl} /> 
+<h2>  {title} </h2>
 <div className='content'>
-<p >Age: {age}</p>
-<p> Occupation: {occupation}.</p>
-<p> Location: {location}.</p>
+<p >{description}</p>
+<p className='Price'> ${price}.00</p>
+
+<button>Add to cart</button>
+
+
 </div>
 </div>
 );
