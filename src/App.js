@@ -1,22 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Profilecard from "./Components/Profilecard";
+import './Profilecard.css';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-        >
-          Learn React
-        </a>
-      </header>
+  <div>
+  <Profilecard name="Zeenat" age = {19} occupation="Software Engineering" />
+    
     </div>
   );
 }
