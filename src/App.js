@@ -15,12 +15,12 @@ function App() {
   }
   const Statistics_Data1 = {
     totalUsers: "125",
-    activeUsers: "70",
+    activeUsers: "100",
     newSignups: "10",
-    activePercentage: Math.round((70/125) *100)
+    activePercentage: Math.round((100/125) *100)
   }
   const Messages_Data1 = {
-    Message1: "Welcome back, Muhammad Mashhood! Here's your dashboard overview.",
+    Message1: "Your current active percentage is 80%. Keep up the engagement!",
     Message2: "Your profile is up to date!",
     Message3: "Congrats! You've reached a milestone of 100 active users!"
   }

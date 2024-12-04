@@ -1,7 +1,7 @@
 import '../styles/Statistics.css';
 
 function Statistics({ Statistics_Data }) {
-  // Calculate the bar width based on the data values
+
   const totalUsersWidth = (Statistics_Data.totalUsers / 200) * 100;
   const activeUsersWidth = (Statistics_Data.activeUsers / 200) * 100;
   const newSignupsWidth = (Statistics_Data.newSignups / 50) * 100;

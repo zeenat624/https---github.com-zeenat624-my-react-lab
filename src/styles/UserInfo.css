@@ -5,22 +5,21 @@ body{
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); 
   border-radius: 20px;
   background-color: white;
-  width: 280px;
+  width: 300px;
   text-align: center;
   padding: 20px;
-  margin-left: 25px;
-  margin-top: 25px;
+  margin-left: 15px;
+  margin-top: 15px;
   transition: transform 0.3s ease;
 }
 
-.card:hover {
-  transform: translateY(-5px); 
-}
 
 .card h2 {
   font-size: 1.6rem;
   font-weight: bold;
-  margin: 15px 0;
+  margin-top: 5px;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
 .card h3 {
@@ -34,11 +33,10 @@ body{
 }
 
 .card .image {
-  width: 80px;
-  height: 80px;
+  width: 100px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 20px;
+ 
 }
 
 
