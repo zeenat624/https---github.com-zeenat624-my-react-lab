@@ -1,7 +1,7 @@
 .card2{
     box-shadow: 0 4px 10px ; 
     border-radius: 15px;
-    background-color:#ADD8E6; 
+    background-color: white; 
     width: 200px; 
     text-align: left; 
     padding: 25px;
@@ -30,9 +30,8 @@
     background-size: cover;
 }
 .card2 p:nth-child(1)::before {
-    background-image: url('https://img.icons8.com/ios/50/000000/user.png'); /* Total Users icon */
+    background-image: url('https://img.icons8.com/ios/50/000000/user.png'); 
 }
-
 .card2 p:nth-child(2)::before {
     background-image: url('https://img.icons8.com/ios/50/000000/user-check.png'); /* Active Users icon */
 }
