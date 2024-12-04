@@ -1,7 +1,7 @@
 import '../styles/UserInfo.css';
 function UserInfo ({User_Data}){
     return(
-        <div >
+        <div className="card" >
         <p>{User_Data.ProfilePic}</p>
         <h2>{User_Data.name}</h2>
         <p>{User_Data.email}</p>
