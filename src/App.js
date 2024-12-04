@@ -13,11 +13,15 @@ function App() {
     totalUser: "100",
     activeUsers: "70",
     newSignups: "10",
-    acivePercentage: (70*10/ 100)*100,
+    acivePercentage: (70*10/ 100)*100
   }
   return (
     <div className="container">
     <UserInfo User_Data={User_Data1}/>
+  
+    <div>
+      <Statistics Statistics_Data={Statistics_Data1}/>
+    </div>
     </div>
   );
 }
