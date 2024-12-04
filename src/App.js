@@ -30,9 +30,6 @@ function App() {
     <Statistics Statistics_Data={Statistics_Data1}/>
     <Messages Messages_Data= {Messages_Data1}/>
     </div>
-    
-   
-    
   );
 }
 
