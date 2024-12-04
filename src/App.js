@@ -6,7 +6,7 @@ function App() {
     name: "Muhammad Mashhood",
     email: "mashhoodpetro17@gmail.com",
     role: "Head of college",
-    ProfilePicture: "ProfilePic.jpg"
+    ProfilePic: "ProfilePic.jpg"
   }
   return (
     <div className="App">
