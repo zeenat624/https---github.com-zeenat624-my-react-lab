@@ -1,0 +1,120 @@
+.navbar {
+  background-color: #333; /* Dark background for contrast */
+  color: #fff;
+  padding: 1rem 2rem; /* Increased padding for a spacious feel */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  position: sticky; /* Keeps navbar at the top */
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%; /* Ensures proper alignment */
+  display: flex;
+  align-items: center;
+}
+
+.site-name {
+  font-size: 1.8rem; /* Slightly larger for emphasis */
+  font-weight: bold;
+  color: #fff;
+  margin-right: 40px;
+  letter-spacing: 1px; /* Subtle spacing for elegance */
+  text-transform: uppercase; /* Makes it stand out */
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.site-name:hover {
+  color: skyblue; /* Matches link hover color */
+}
+
+.navbar-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  gap: 1.5rem; /* Adds even spacing between links */
+}
+
+.navbar-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.2s ease;
+  position: relative; /* For underline effect */
+}
+
+.navbar-link:hover {
+  color: skyblue;
+  transform: translateY(-2px); /* Subtle lift effect */
+}
+
+.navbar-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: skyblue;
+  bottom: -5px;
+  left: 0;
+  transition: width 0.3s ease;
+}
+
+.navbar-link:hover::after {
+  width: 100%; /* Full underline effect on hover */
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1rem;
+  }
+
+  .navbar-list {
+    display: none; /* Initially hidden */
+    flex-direction: column;
+    background-color: #333;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-list.active {
+    display: flex; /* Display when active */
+  }
+
+  .navbar-link {
+    margin: 0.5rem 0; /* Adjust spacing */
+  }
+
+  .menu-toggle {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+  }
+
+  .menu-bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+  }
+
+  .menu-bar.active {
+    background-color: skyblue; /* Color when active */
+  }
+}
