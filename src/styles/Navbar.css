@@ -25,7 +25,6 @@
   color: #fff;
   margin-right: 40px;
   letter-spacing: 1px; /* Subtle spacing for elegance */
-  text-transform: uppercase; /* Makes it stand out */
   cursor: pointer;
   transition: color 0.3s ease;
 }

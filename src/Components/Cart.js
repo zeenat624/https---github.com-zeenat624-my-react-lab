@@ -41,9 +41,9 @@ function Cart() {
     <div className="item-cards">
       <div className="item-card">
         <div className="item-details">
-          <h3>Item: White Shirt</h3>
-          <img src='white shirt.webp' alt="White Shirt" />
-          <p>Price: $19.99</p>
+          <h3>Item: Laptop bag for men</h3>
+          <img src='bag.png' alt="bag" />
+          <p>Price: $150</p>
         </div>
         <div className="quantity-controls">
           <button onClick={addItem1}>+</button>
@@ -51,15 +51,15 @@ function Cart() {
           <button onClick={removeItem1}>-</button>
         </div>
         <div className="total">
-          Total: ${calculateTotal1(19.99)}
+          Total: ${calculateTotal1(150)}
         </div>
       </div>
     
       <div className="item-card">
           <div className="item-details">
-            <h3>Item: Hoodie</h3>
-            <img src='black hoodie.png' alt="Black Hoodie" />
-            <p>Price: $29.99</p>
+            <h3>Item: Stylish hoodie</h3>
+            <img src='hoodie.png' alt="Black Hoodie" />
+            <p>Price: $100</p>
           </div>
           <div className="quantity-controls">
             <button onClick={addItem2}>+</button>
@@ -67,7 +67,7 @@ function Cart() {
             <button onClick={removeItem2}>-</button>
           </div>
           <div className="total">
-            Total: ${calculateTotal2(29.99)}
+            Total: ${calculateTotal2(100)}
           </div>
         </div>
       </div>

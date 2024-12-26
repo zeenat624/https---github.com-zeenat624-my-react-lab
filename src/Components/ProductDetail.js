@@ -1,32 +1,30 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-
-const products = [
-  { id: 1, name: 'Product 1', description: 'Description of Product 1', imageUrl: },
-  { id: 2, name: 'Product 2', description: 'Description of Product 2', imageUrl: 'https://via.placeholder.com/150' },
-  { id: 3, name: 'Product 3', description: 'Description of Product 3', imageUrl: 'https://via.placeholder.com/150' },
-  { id: 4, name: 'Product 4', description: 'Description of Product 4', imageUrl: 'https://via.placeholder.com/150' },
-  { id: 5, name: 'Product 5', description: 'Description of Product 5', imageUrl: 'https://via.placeholder.com/150' },
-  { id: 6, name: 'Product 6', description: 'Description of Product 6', imageUrl: 'https://via.placeholder.com/150' },
-  { id: 7, name: 'Product 7', description: 'Description of Product 7', imageUrl: 'https://via.placeholder.com/150' },
-  { id: 8, name: 'Product 8', description: 'Description of Product 8', imageUrl: 'https://via.placeholder.com/150' },
-  { id: 9, name: 'Product 9', description: 'Description of Product 9', imageUrl: 'https://via.placeholder.com/150' },
-  { id: 10, name: 'Product 10', description: 'Description of Product 10', imageUrl: 'https://via.placeholder.com/150' },
-];
+import { useParams } from 'react-router-dom';
 
 function Product() {
+  const { productId } = useParams();
+
   return (
-    <div>
-      <h2>Product List</h2>
-      <div className="product-list">
-        {products.map((product) => (
-          <div key={product.id} className="product-card">
-            <img src={product.imageUrl} alt={product.name} />
-            <h3>{product.name}</h3>
-            <p>{product.description}</p>
-            <Link to={`/product/${product.id}`} className="view-details">View Details</Link>
-          </div>
-        ))}
+    <div className="product-container">
+      <h1 className="product-id">Product Id: {productId}</h1>
+      <div className="product-details">
+
+        <h2 className="product-name">Women's PureWalk Sneakers</h2>
+        <p className="product-style">Style: WP001</p>
+        <p className="product-color">Color: White</p>
+        <p className="product-size">Size: 6-10</p>
+        <p className="product-description">
+          Step into comfort and style with our Women's PureWalk Sneakers. 
+          Designed for the modern woman on-the-go, these sleek and versatile sneakers feature:
+        </p>
+        <ul className="product-features">
+          <li>Premium white leather upper for a clean and crisp look</li>
+          <li>Breathable mesh panels for added ventilation and comfort</li>
+          <li>Cushioned insole and soft, padded collar for superior support</li>
+          <li>Durable rubber outsole for traction and durability</li>
+          <li>Classic lace-up closure for a secure fit</li>
+        </ul>
+        <button className="add-to-cart">Add to Cart</button>
       </div>
     </div>
   );

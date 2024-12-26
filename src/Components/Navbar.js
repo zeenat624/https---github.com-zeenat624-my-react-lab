@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <span className="site-name">FashionHub</span>
+        <span className="site-name">Oneclick.com</span>
         <ul className="navbar-list">
           <li><Link to="/" className="navbar-link">Home</Link></li>
           <li><Link to="/cart" className="navbar-link">Cart</Link></li>

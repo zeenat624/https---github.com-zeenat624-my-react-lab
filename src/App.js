@@ -9,6 +9,7 @@ import User from './Components/User';
 import './styles/Cart.css';
 import './styles/Home.css';
 import './styles/Product.css';
+import './styles/User.css';
 
 function App() {
   return (
