@@ -1,0 +1,117 @@
+.cart-container {
+    width: 100%;
+    min-height: 50vh; /* Reduced from 100vh to 80vh so navbar appears */
+    padding: 10px;
+    box-sizing: border-box;
+}
+/* "Your Cart" Heading */
+h2 {
+    margin-top: 0;
+    margin-left: 150px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Empty Cart Message */
+.empty-cart-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0056b3;
+}
+
+/* Cart List - Items Appear Below "Your Cart" */
+.cart-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+/* Cart Card */
+.cart-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #f9f9f9;
+    width: 60%;
+}
+
+/* Cart Image */
+.cart-image {
+    width: 100px; 
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Item Details */
+.cart-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cart-name {
+    font-size: 18px;
+}
+
+.cart-price {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Remove Text Styling */
+.remove-text {
+    color: red;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.remove-text:hover {
+    text-decoration: underline;
+}
+
+/* Total Price Section */
+.cart-summary {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 2px solid #ddd;
+}
+
+/* Checkout Button */
+.checkout-button {
+    width: 250px;
+    padding: 12px;
+    margin: 20px auto;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    display: block;
+}
+
+.checkout-button:hover {
+    background-color: #333;
+}
